@@ -7,5 +7,5 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "secret ${{ secrets.MY }} ."
+      - run: echo "secret ${{ vars.JOB_NAME }} ."
       
